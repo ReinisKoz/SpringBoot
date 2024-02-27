@@ -38,7 +38,7 @@ public Money minus(Money decreaser) {
 }
 
 public boolean lessThan(Money compare) {
-    if (euros + cents < compare.euros + compare.cents) {
+    if (euros + cents > compare.euros + compare.cents) {
         return true;
     } else {
         return false;
